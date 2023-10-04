@@ -5,10 +5,12 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
-  SiNetlify
+  SiNetlify,
 } from "react-icons/si";
-import {VscJson} from "react-icons/vsc";
-import {ImNpm} from "react-icons/im";
+import { VscJson } from "react-icons/vsc";
+import { ImNpm } from "react-icons/im";
+import { FaBitbucket } from "react-icons/fa";
+import { SiJirasoftware } from "react-icons/si";
 
 function Toolstack() {
   return (
@@ -33,6 +35,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaBitbucket />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJirasoftware />
       </Col>
     </Row>
   );

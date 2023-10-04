@@ -2,17 +2,15 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import pdf from "../Assets/srinivas.pdf"
+import pdf from "../Assets/Srinivas.pdf";
 import { CgFileDocument } from "react-icons/cg";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiOutlinePhone,
-  AiOutlineRocket
+  AiOutlineRocket,
 } from "react-icons/ai";
-
-
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -51,60 +49,42 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item >
-              <Nav.Link href="#home" onClick={() => updateExpanded(false)} className="NavigationItem">
+            <Nav.Item>
+              <Nav.Link
+                href="#home"
+                onClick={() => updateExpanded(false)}
+                className="NavigationItem"
+              >
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="#about"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="#about" onClick={() => updateExpanded(false)}>
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="#skills"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href="#skills" onClick={() => updateExpanded(false)}>
                 <AiOutlineRocket style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="#project"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+              <Nav.Link href="#project" onClick={() => updateExpanded(false)}>
+                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href="#contact"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlinePhone
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Contact
+              <Nav.Link href="#contact" onClick={() => updateExpanded(false)}>
+                <AiOutlinePhone style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                href={pdf}
-                target="_blank"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link href={pdf} target="_blank" onClick={() => updateExpanded(false)}>
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>

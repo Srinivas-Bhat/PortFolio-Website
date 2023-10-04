@@ -7,14 +7,12 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
-  DiHtml5
+  DiHtml5,
+  DiCss3,
 } from "react-icons/di";
-import {
-  SiRedux,
-  SiExpress,
-  SiBootstrap,
-  SiChakraui,
-} from "react-icons/si";
+import { SiRedux, SiExpress, SiBootstrap, SiChakraui } from "react-icons/si";
+import { SiMui } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -48,6 +46,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMui />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandNextjs />
       </Col>
     </Row>
   );

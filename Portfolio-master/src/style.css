@@ -205,11 +205,10 @@ button:focus {
   width: 100%;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .ms-auto {
     font-size: 16px;
   }
-
 }
 
 /* --------- */
@@ -321,9 +320,9 @@ button:focus {
   border-radius: 50%;
   background: rgba(246, 181, 255, 0.911);
   /* box-shadow: #68187a 16px 20px; */
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .find_me {
@@ -374,6 +373,32 @@ button:focus {
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
+}
+
+.home-work-description {
+  color: white !important;
+  /* padding-top: 5px !important; */
+  padding-bottom: 10px !important;
+  text-align: center;
+}
+
+.home-work-body {
+  padding-top: 30px;
+  font-size: 1.2em !important;
+  text-align: left;
+  line-height: 1.5em !important;
+}
+
+.home-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.home-td,
+.home-th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 
 .home-social-icons {
@@ -576,8 +601,7 @@ button:focus {
   height: 260px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) { 
-
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .project_description_Card {
     height: 360px;
     margin-top: 10px;
@@ -587,7 +611,6 @@ button:focus {
   .project_github_Button1 {
     margin: 0 0px 8px 10px;
   }
-
 }
 
 /* --------- */
@@ -617,24 +640,23 @@ button:focus {
 
 .contact_icons {
   font-size: 2em;
-  display : flex;
+  display: flex;
   align-items: center;
   padding: 1rem 1.7em;
 }
-
 
 .contact_info {
   font-size: 0.55em;
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.26);
   text-decoration: none;
   color: white;
-  padding : 0.4em 1em;
+  padding: 0.4em 1em;
 }
 
 .contact_info:hover {
   color: white;
   box-shadow: 0 0 7px #87209e;
-  padding : 0.4em 1rem;
+  padding: 0.4em 1rem;
 }
 
 .tech-icons {
@@ -684,15 +706,13 @@ button:focus {
   font-size: 16px;
 }
 
-
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1440px) { 
-
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
   .aboutCardBody {
     display: flex;
     flex-direction: column;
@@ -702,7 +722,7 @@ button:focus {
 
   .contact_icons {
     font-size: 1.4em;
-    display : flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0px;
@@ -713,11 +733,11 @@ button:focus {
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.26);
     text-decoration: none;
     color: white;
-    padding : 10px 0px;
+    padding: 10px 0px;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .statistics_wrapper {
     margin-top: 15px;
   }
@@ -734,7 +754,7 @@ button:focus {
 
   .contact_icons {
     font-size: 1.5em;
-    display : flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 10px;
@@ -748,7 +768,7 @@ button:focus {
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.26);
     text-decoration: none;
     color: white;
-    padding : 10px 10px;
+    padding: 10px 10px;
     width: 900px;
   }
 
@@ -763,10 +783,9 @@ button:focus {
   .img-fluid {
     margin-top: 60px;
   }
-
 }
 
-@media only screen and (min-width: 425px) and (max-width: 768px) { 
+@media only screen and (min-width: 425px) and (max-width: 768px) {
   .statistics_wrapper {
     margin-top: 15px;
   }
@@ -779,16 +798,15 @@ button:focus {
   #githubCalenderDisplay {
     font-size: 13px;
   }
-
 }
 
-@media only screen and (min-width: 425px) and (max-width: 768px) { 
+@media only screen and (min-width: 425px) and (max-width: 768px) {
   .contact_info {
     font-size: 13px;
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.26);
     text-decoration: none;
     color: white;
-    padding : 10px 10px;
+    padding: 10px 10px;
     width: 900px;
     /* margin-top: 10px; */
   }
@@ -796,10 +814,9 @@ button:focus {
   .contact_icons {
     gap: 40px;
   }
-
 }
 
-@media only screen and (min-width: 320px) and (max-width: 425px) { 
+@media only screen and (min-width: 320px) and (max-width: 425px) {
   .github1 {
     margin-top: 25px;
     width: 250px;
@@ -814,14 +831,13 @@ button:focus {
     box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.26);
     text-decoration: none;
     color: white;
-    padding : 10px 10px;
+    padding: 10px 10px;
     width: 900px;
   }
 
   .contact_icons {
     gap: 50px;
   }
-
 }
 
 /* --------- */

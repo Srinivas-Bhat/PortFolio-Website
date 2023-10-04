@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import photo from "../../Assets/srinivas.jpg"
+import photo from "../../Assets/srinivas.jpg";
 import Tilt from "react-parallax-tilt";
+import { ImPointRight } from "react-icons/im";
 // import { AiFillGithub } from "react-icons/ai";
 // import { FaLinkedinIn } from "react-icons/fa";
 // import { SiGmail } from "react-icons/si";
@@ -19,13 +20,23 @@ function Home2() {
               <i>
                 <b className="purple">Full Stack Developer </b>
               </i>
-              , who is passionate about building digital products that improve
-              everyday experience for people. Proficient in
+              , who is passionate about building digital products that improve everyday
+              experience for people. Proficient in
               <i>
-                <b className="purple"> MERN Stack.  </b>
+                <b className="purple"> MERN Stack. </b>
               </i>
-                I love to work on exciting projects that test what I've learnt,  
-              also look forward to work in a challenging environment which gives me an opportunity to prove myself & provides me with an atmosphere in which I can learn & grow.
+              I love to work on exciting projects that test what I've learnt, also look
+              forward to work in a challenging environment which gives me an opportunity
+              to prove myself & provides me with an atmosphere in which I can learn &
+              grow.
+            </p>
+            <p className="home-work-body">
+              <i>
+                <b className="purple">Work Experience </b>
+              </i>
+              <br />
+              Additionally, I have worked as a Full Stack Web Developer at TrustCheckr.
+              <br />
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -34,9 +45,10 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
         {/* <Row>
           <Col md={12} className="home-about-social">
-            <p>
+            <p> 
               Feel free to <span className="purple">connect </span>with me
             </p>
             <p className="contact-font">
