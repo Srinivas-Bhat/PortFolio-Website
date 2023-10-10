@@ -74,7 +74,7 @@ function Projects() {
               title="Clone of Everhour"
               description="Full stack application clone of Everhour website that helps to calculate the work hours of your team or particular team member, which has userflow from signup/login to adding"
               stacks="Tech Stack : JAVASCRIPT, CSS, React, Chakra-UI, Express, MongoDB, Node"
-              ghLink="https://github.com/ravinishadcoder/Everhour"
+              ghLink="https://github.com/Srinivas-Bhat/Everhour"
               demoLink="https://everhour2.vercel.app/"
             />
           </Col>
