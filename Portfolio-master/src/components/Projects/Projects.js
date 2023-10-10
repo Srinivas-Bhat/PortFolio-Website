@@ -10,19 +10,16 @@ import everhour from "../../Assets/Projects/everhour.png";
 
 function Projects() {
   return (
-    <Container  fluid className="project-section">
+    <Container fluid className="project-section">
       <div id="project" className="projects-sections"></div>
       <Particle />
       <Container>
-        <h1 className="project-heading" >
+        <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
-        </p>
+        <p style={{ color: "white" }}>Here are a few projects I've worked on recently.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={BlueMercury}
               isBlog={false}
@@ -41,7 +38,7 @@ function Projects() {
               title="Clone of Pharmeasy"
               description="Full Stack Web application clone of an e-commerce website to buy health-care and medical related products, having userflow from login to payment page."
               stacks="Tech Stack : JAVASCRIPT, CSS, React, Chakra-UI, Express, MongoDB, Node"
-              ghLink="https://github.com/ayaznoori/PharmEasy-Clone"
+              ghLink="https://github.com/Srinivas-Bhat/PharmEasy-Clone"
               demoLink="https://pharmeasy-webclone.netlify.app/"
             />
           </Col>
@@ -56,7 +53,7 @@ function Projects() {
               ghLink="https://github.com/Srinivas-Bhat/snap-deal-clone"
               demoLink="https://snapdeal-website-clone.netlify.app/"
             />
-          </Col>          
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -78,7 +75,7 @@ function Projects() {
               description="Full stack application clone of Everhour website that helps to calculate the work hours of your team or particular team member, which has userflow from signup/login to adding"
               stacks="Tech Stack : JAVASCRIPT, CSS, React, Chakra-UI, Express, MongoDB, Node"
               ghLink="https://github.com/ravinishadcoder/Everhour"
-              demoLink="https://everhour2.vercel.app/"              
+              demoLink="https://everhour2.vercel.app/"
             />
           </Col>
 
@@ -93,7 +90,6 @@ function Projects() {
               demoLink="https://sensational-kheer-5c4a81.netlify.app/"              
             />
           </Col> */}
-
         </Row>
       </Container>
     </Container>
