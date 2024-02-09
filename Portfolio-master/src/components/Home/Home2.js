@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import photo from "../../Assets/srinivas.jpg";
+import photo from "../../Assets/srinivas.png";
 import Tilt from "react-parallax-tilt";
 import { ImPointRight } from "react-icons/im";
 // import { AiFillGithub } from "react-icons/ai";

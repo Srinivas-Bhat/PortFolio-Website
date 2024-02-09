@@ -160,13 +160,18 @@ button:focus {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  /* color: white !important; */
+  color: white;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
 
 .nav-link {
   padding: 0.8rem 1rem !important;
+}
+
+.active {
+  color: orange;
 }
 
 @media (max-width: 767px) {
