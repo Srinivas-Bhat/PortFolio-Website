@@ -27,7 +27,7 @@ function Projects() {
               description="BlueMercury is an e-commerce website. Have built the user flow of the website from sign up to product description page and the data managed with json server."
               stacks="Tech Stack : REACT, REDUX, JAVASCRIPT, CHAKRA-UI"
               ghLink="https://github.com/Srinivas-Bhat/brisk-hour-6305"
-              demoLink="https://srinivasbluemercury-clone.netlify.app/"
+              demoLink="https://bluemercury-clone-bice.vercel.app/"
             />
           </Col>
 
@@ -51,7 +51,7 @@ function Projects() {
               description="A famous e-commerce website having the user flow from sign up to placing the orders, address updating page, and checkout page, and data managed with json server and local storage."
               stacks="Tech Stack :  HTML, CSS, JAVASCRIPT"
               ghLink="https://github.com/Srinivas-Bhat/snap-deal-clone"
-              demoLink="https://snapdeal-site-clone.netlify.app/"
+              demoLink="https://snap-deal-clone.vercel.app/"
             />
           </Col>
 
@@ -63,7 +63,7 @@ function Projects() {
               description="A FrontEnd web application where user can order a particular food item listed at the left and the respective food item will be displayed after certain time interval with a random token, also having the login and signup pages &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"
               stacks="Tech Stack : HTML, CSS, JAVASCRIPT &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; "
               ghLink="https://github.com/Srinivas-Bhat/Food-App"
-              demoLink="https://delicate-babka-02c9e3.netlify.app/"
+              demoLink="https://food-app-six-rho.vercel.app/"
             />
           </Col>
 
